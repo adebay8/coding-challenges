@@ -11,7 +11,7 @@ This project includes unit tests written with `unittest` to ensure the correctne
 1. **Installation**: Before running the project, ensure you have Python 3.x installed on your system.
 2. **Clone the Repository**: Clone this repository to your local machine:
 ```bash
-   git clone https://github.com/adebay8/.git
+   git clone https://github.com/adebay8/coding-challenges.git
    cd huffman-coding
    pip install -r requirements.txt
    python3 ./tests/test.py
