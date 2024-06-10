@@ -1,0 +1,20 @@
+JSON parser
+Parsing is often broken up into two stages: lexical analysis and syntactic analysis
+
+Lexical analysis
+- dividing a sequence of characters into tokens
+- This recognizes the basic primitives defined in the language spec. 
+    - In this case it would have to recognize curly-brackets, quotes, etc.
+    - It would probably also build the representation of numbers.
+
+Assuming a simple lexical analyzer, 
+    - you might iterate over all the characters in an input string (or stream) and 
+    - break them apart into fundemental, non-recursively defined language constructs such as integers, strings, and boolean literals.
+
+syntactic analysis
+analysing the list of tokens to match it to a formal grammar
+
+an AbstractSyntaxTree generator. 
+Here you write code to assemble a tree representing the abstraction of your JSON (e.g. whitespace and curlies have been discarded).
+
+When you have the AST it should be easy to iterate over the nodes and create your desired output.

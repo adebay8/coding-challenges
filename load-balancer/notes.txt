@@ -1,0 +1,4 @@
+simulate concurrent requests
+round rubin algoritm 
+8000 load balancer
+    8001, 8002, 8003
