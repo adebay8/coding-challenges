@@ -1,0 +1,13 @@
+- obtain the frequency table 
+- using the frequency table create the priority queue with the key as the frequency
+- prioriy queuse need something to compare by
+- using the priority queue construct the huffman tree
+
+Huffman tree 
+    - node 
+        - left, right, frequency
+        - the frequency of each node is the sum of its left and right frequency
+        - constructor (left, right) 
+    - leaf node
+        - the actual characters in a huffman tree are only stored in leaf nodes
+        
